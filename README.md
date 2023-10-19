@@ -1,3 +1,18 @@
+1. setup env of diffusers as below.
+2. revise training config in [ train.sh ]. and use [ sh train.sh ] to train a model.
+3. revise inference config in [ inference_sdxl_lora.py ]. and use [ inference.sh ] to inference.
+4. use [ python clip_score.py ] to compute clip score.
+5. use [ python draw.py ] to draw a clip score pic.
+
+
+
+
+
+
+
+
+
+
 <p align="center">
     <br>
     <img src="https://raw.githubusercontent.com/huggingface/diffusers/main/docs/source/en/imgs/diffusers_library.jpg" width="400"/>
